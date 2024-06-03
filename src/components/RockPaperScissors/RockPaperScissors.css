@@ -1,0 +1,144 @@
+.game-container {
+    text-align: center;
+    color: #fff;
+    background-color: #1f3757;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .score-board {
+    background-color: #fff;
+    color: #1f3757;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .score-board span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .choices button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .choices img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .result {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .choice {
+    text-align: center;
+  }
+  
+  .choice img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .result-text {
+    text-align: center;
+  }
+  
+  .result-text h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .result-text button {
+    background-color: #fff;
+    color: #1f3757;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  footer button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .rules-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rules-content {
+    background: #fff;
+    color: #1f3757;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .rules-content h2 {
+    margin-top: 0;
+  }
+  
+  .rules-content img[alt="Close"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .rules-text img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .rules-text p {
+    margin: 10px 0;
+  }

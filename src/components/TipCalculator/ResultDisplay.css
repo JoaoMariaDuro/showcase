@@ -1,0 +1,23 @@
+.result-display {
+    background-color: #004d40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .result-item label {
+    font-size: 14px;
+  }
+  
+  .result-item span {
+    font-size: 24px;
+  }
